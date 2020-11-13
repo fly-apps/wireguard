@@ -2,6 +2,11 @@
 
 app = "wireguard-example"
 
+[mount]
+source = "wireguard_conf"
+destination = "/etc/wat"
+
+
 [[services]]
   internal_port = 5556
   protocol = "udp"
